@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <font id="BlockPixel" horiz-adv-x="8">
+      <font-face
+        font-family="BlockPixel"
+        units-per-em="8"
+        ascent="8"
+        descent="0"
+      />
+
+      <missing-glyph horiz-adv-x="8" />
+
+      <!-- A -->
+      <glyph unicode="A" d="M1 0 V7 H6 V0 H5 V3 H2 V0 Z M2 4 H5 V6 H2 Z"/>
+
+      <!-- B -->
+      <glyph unicode="B" d="M1 0 V7 H5 C6 7 6 6 6 5 V4 C6 3 6 2 5 2 H1 Z M2 3 H4 V5 H2 Z"/>
+
+      <!-- C -->
+      <glyph unicode="C" d="M6 1 V0 H2 C1 0 1 1 1 2 V5 C1 6 1 7 2 7 H6 V6 H3 V1 Z"/>
+
+      <!-- Space -->
+      <glyph unicode=" " horiz-adv-x="4"/>
+    </font>
+  </defs>
+</svg>

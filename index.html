@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BlockRealm • Minecraft Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/png">
+  <link rel="apple-touch-icon" href="images/favicon.ico">
+</head>
+<body>
+
+<!-- FIXED TOP BAR (NAV LAYER 1) -->
+<header class="top-bar">
+  <div class="top-left">
+    <span class="logo-mini">⛏ BlockRealm</span>
+  </div>
+
+  <div class="top-center">
+    <input type="text" id="playerSearch" placeholder="Find player..." />
+    <select>
+      <option>Java</option>
+      <option>Bedrock</option>
+    </select>
+    <button onclick="findPlayer()">Search</button>
+  </div>
+
+  <div class="top-right">
+    <span class="online-count">
+      🟢 <strong id="onlineCount">0</strong> Online
+    </span>
+  </div>
+</header>
+
+<!-- MAIN NAV (NAV LAYER 2) -->
+<nav class="main-nav">
+  <a href="#">Home</a>
+  <a href="#">Vote</a>
+  <a href="#">Store</a>
+  <a href="#">Rules</a>
+  <a href="#">Discord</a>
+</nav>
+
+<!-- SUB NAV (NAV LAYER 3) -->
+<nav class="sub-nav">
+  <a href="#">Survival</a>
+  <a href="#">Skyblock</a>
+  <a href="#">Lifesteal</a>
+  <a href="#">Events</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="images/LOGOBLOCKREALM.png" alt="">
+  <p>Adventure • Economy • Community</p>
+  <button id="copyBtn">Join Now: blockrealm.g-s.nu</button>
+
+  <div id="copyPopup" class="copy-popup">
+    <span class="check">✔</span>
+    Successfully Copied! Enter into Minecraft Server IP
+  </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<main class="container">
+
+  <!-- NEWS & UPDATES -->
+<section class="news-wrapper" id="newsContainer">
+
+</section>
+
+
+  <!-- SERVER STATS -->
+  <section class="stats">
+    <div class="stat-box">
+      <h3 id="playersOnline">0</h3>
+      <p>Players Online</p>
+    </div>
+    <div class="stat-box">
+      <h3>1.8 - 1.20+</h3>
+      <p>Supported Versions</p>
+    </div>
+    <div class="stat-box">
+      <h3>24/7</h3>
+      <p>Uptime</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 BlockRealm • Not affiliated with Mojang</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
